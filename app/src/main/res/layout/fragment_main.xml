@@ -33,8 +33,23 @@
             android:gravity="left|center_vertical"
             android:text="Toast &amp; Snakebar"
             android:textAllCaps="false"
+            android:textColor="@color/black"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/androidtasks_notification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:backgroundTint="@color/backgrounds_tasks"
+            android:gravity="left|center_vertical"
+            android:text="Notification"
+            android:textAllCaps="false"
             android:textColor="@color/black"
+
          />
+
+
 
 
     </LinearLayout>

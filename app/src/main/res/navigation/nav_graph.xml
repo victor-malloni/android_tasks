@@ -13,6 +13,9 @@
         <action
             android:id="@+id/action_mainFragment_to_toastSnakeFragment"
             app:destination="@id/toastSnakeFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_Navigation"
+            app:destination="@id/notificationFragment" />
     </fragment>
     <fragment
         android:id="@+id/toastSnakeFragment"
@@ -21,6 +24,17 @@
         tools:layout="@layout/fragment_toast_snake" >
         <action
             android:id="@+id/action_toastSnakeFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/notificationFragment"
+        android:name="com.androidtasks.mainactivity.core.notification.NotificationFragment"
+        android:label="Notification"
+        tools:layout="@layout/fragment_notification" >
+        <action
+            android:id="@+id/action_Navigation_to_mainFragment"
             app:destination="@id/mainFragment" />
     </fragment>
 

@@ -14,7 +14,7 @@ class MainFragment : Fragment(R.layout.fragment_main) {
         super.onViewCreated(view, savedInstanceState)
         binding = FragmentMainBinding.bind(view)
         binding.androidtasksToastSnake.setOnClickListener{navTo(R.id.toastSnakeFragment)}
-
+        binding.androidtasksNotification.setOnClickListener{navTo(R.id.notificationFragment)}
 
 
 
